@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textShadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.shadowButton {
+    box-shadow: 4px 5px 13px rgba(0, 0, 0, 0.3);
+}
+
+.icon:hover {
+    fill: hsl(300, 65%, 63%);
+    cursor: pointer;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Poppins', sans-serif;
+
+    }
+}
